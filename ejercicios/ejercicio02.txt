@@ -1,0 +1,14 @@
+1.  Inicio
+2.  arreglo(5), i[0-n]
+3.  arreglo[0] <-- 10
+4.  arreglo[1] <-- 9
+5.  arreglo[2] <-- 20
+6.  arreglo[3] <-- 29
+7.  arreglo[4] <-- 100
+8.  Para(indice<--0, indice<5, 1)haga
+9. 	Si(arreglo[indice] mod 2== 1)haga // si la condicion se cumple entoces se imprime
+10.	    Escribir arregolo[indice] 
+11.	fin si
+12. Fin para
+13. Fin 
+  

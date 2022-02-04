@@ -1,0 +1,32 @@
+1.  Inicio
+2.  ventas(5),i[0-n]
+3.  dias(5), x(20)[{a-z}, {BS}]
+4.  dias[0]<-- "Lunes"
+5.  dias[1]<-- "Martes"
+6.  dias[2]<-- "Miércoles"
+7.  dias[3]<-- "Jueves"
+8.  dias[4]<-- "Viernes"
+9.  indice,i[0,n]
+10. resultadoV, x(20)[{a-z},{A-Z},{0-9},{BS}]
+11. Escribir "Ingrese el valor de ventas del dia lunes"
+12. Lea ventas[0] // 130
+13. Escribir "Ingrese el valor de ventas del dia martes"
+14. Lea ventas[1] // 200
+15. Escribir "Ingrese el valor de ventas del dia miercoles"
+16. Lea ventas[2] // 190
+17. Escribir "Ingrese el valor de ventas del dia jueves"
+18. Lea ventas[3] // 200
+19. Escribir "Ingrese el valor de ventas del dia cienes"
+20. Lea ventas[4] // 100
+21. Para(indice<--0,indice<5,1)haga
+22. 	resultadoV<-- dias[indice]+ventas[indice]		// lunes + 130
+								// martes + 200
+								// miercoles + 190
+								// jueves + 200
+								// viernes + 100 
+23. 	acumulador<-- (\n"acumulador" + "resultadoV")
+24. Fin para
+25. Escribir acumulador
+26. FIn
+
+
